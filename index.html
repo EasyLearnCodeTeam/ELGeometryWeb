@@ -12,13 +12,15 @@
     <title>ELGeometry</title>
     <!-- Bootstrap core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Vendor css -->
+    <link href="bower_components/At.js/dist/css/jquery.atwho.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="/assets/css/main.css" rel="stylesheet">
 </head>
 
 <body role="document">
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -27,7 +29,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">ElGeometry</a>
+                <a class="navbar-brand" href="#"><img src="assets/img/logo_web.svg" class="img-responsive" alt=""></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -38,12 +40,21 @@
             <!--/.nav-collapse -->
         </div>
     </nav>
-    <div class="container theme-showcase" role="main">
-        <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron">
-            <h1>ElGeometry</h1>
-            <p>ElGeometry in coming.</p>
+    <div class="container" role="main">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="egl-canvas" style="width:100%; height:100%"></div>
+            </div>
+            <div class="col-md-4">
+                <span>Mot vai noi dung vo van o day</span>
+                <div contenteditable="true" class="inputor"></div>
+                <div>
+                    <button class="btn btn-primary pull-right draw-btn">Nut than thanh</button>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
         </div>
+        
     </div>
     <!-- /container -->
     <!-- Bootstrap core JavaScript
@@ -51,6 +62,11 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="bower_components/Caret.js/dist/jquery.caret.min.js"></script>
+    <script src="bower_components/At.js/dist/js/jquery.atwho.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.min.js"></script>
+    <script src="assets/js/threejs/renderers/Projector.js"></script>
+    <script src="assets/js/threejs/renderers/CanvasRenderer.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 

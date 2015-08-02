@@ -1,4 +1,73 @@
+.navbar-brand img {
+    height: 49px;
+    margin-top: -15px;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
 body {
-  padding-top: 70px;
-  padding-bottom: 30px;
+	background-image: url('../img/grid_dot.png');
+    background-color: #97C6C4;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.inputor {
+    height: 300px;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    padding: 5px 8px;
+    outline: 0 none;
+    margin: 10px 0;
+    background: white;
+    font-size: inherit;
+    overflow-y: scroll;
+}
+
+.inputor:focus {
+    border: 1px solid rgb(6, 150, 247);
+}
+
+.inputor div {
+    padding-top: 10px;
+}
+
+.elg-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    font-style: normal;
+}
+
+.egl-hinhvuong {
+    background: url(../img/hinhvuong.svg) no-repeat top left;
+}
+
+.egl-hinhchunhat {
+    background: url(../img/hinhchunhat.svg) no-repeat top left;
+}
+
+.egl-hinhchop {
+    background: url(../img/pyramid.svg) no-repeat top left;
+}
+
+.egl-tamgiac {
+    background: url(../img/tamgiac.svg) no-repeat top left;
+}
+
+.egl-vuonggoc {
+    background: url(../img/vuonggoc.svg) no-repeat top left;
+}
+
+.egl-goc {
+    background: url(../img/goc.svg) no-repeat top left;
+}
+.egl-songsong {
+    background: url(../img/songsong.svg) no-repeat top left;
+}
+
+.elg-input {
+    width: 100px;
 }
